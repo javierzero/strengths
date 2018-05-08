@@ -1,0 +1,125 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>What we love</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LOVE CRAZY & ENVY Javier Zermeno y Eduardo Bernetche">
+    <meta name="keywords" content="javier, zermeno, eduardo, bernetche">
+    <meta name="author" content="Javier">
+    <!-- styles -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/phy.ico" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="font/css/fontello.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- scripts -->
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <script>
+            $(document).ready(function() {
+        $(".fancybox-thumb").fancybox({
+            helpers	: {
+                title	: {
+                    type: 'inside'
+                },
+                overlay : {
+                            css : {
+                                'background' : 'rgba(1,1,1,0.65)'
+                            }
+                        }
+            }
+        });
+    });
+	</script>
+	</head>
+    <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index.html"><img src="img/user.jpg"/></a>
+          <ul class="nav nav-collapse pull-right">
+           <li><a href="index.html"><i class="icon-user"></i> Nuestro Top 5</a></li>
+            <li><a href="love.html" class="active"><i class="icon-trophy"></i> LOVE</a></li>
+            <li><a href="crazy.html"><i class="icon-picture"></i> CRAZY</a></li>
+            <li><a href="envy.html"><i class="icon-doc-text"></i> ENVY</a></li>
+          </ul>
+          <!-- Everything you want hidden at 940px or less, place within here -->
+          <div class="nav-collapse collapse">
+            <!-- .nav, .navbar-search, .navbar-form, etc -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Skills container-->
+    <div class="container skills">
+      <h2>A Eduardo le gusta su strength...</h2>
+      <div class="row">
+        <div class="span3">
+          <div class="ps">
+            <h3>Strength</h3>
+          </div>
+        </div>
+        <div class="span5">
+          <h3>Esto esto esto <span>70%</span></h3>
+          <div class="expand-bg"> <span class="expand ps2"> &nbsp; </span> </div>
+        </div>
+      </div>
+      
+	  <h2>A Javier le gusta su strength...</h2>
+      <div class="row">
+        <div class="span3">
+          <div class="css">
+            <h3>Esto</h3>
+          </div>
+        </div>
+        <div class="span5">
+          <h3>Detalle detalle detalle <span>85%</span></h3>
+          <div class="expand-bg"> <span class="expand css2"> &nbsp; </span> </div>
+        </div>
+      </div>
+    </div>
+    <!--END: Skills container-->
+    <!-- Social Icons -->
+    <div class="row social">
+      <ul class="social-icons">
+        
+      </ul>
+    </div>
+    <!-- END: Social Icons -->
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        
+        <p class="pull-right"><a href="#myModal" role="button" data-toggle="modal"> <i class="icon-mail"></i> Contacto</a></p>
+      </div>
+    </div>
+    <!-- Contact form in Modal -->
+    <!-- Modal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel"><i class="icon-mail"></i> Si gusta saber más de strengths, llámenos</h3>
+      </div>
+      <div class="modal-body">
+        <form>
+          <input type="text" placeholder="Su nombre por favor">
+          <input type="text" placeholder="¿Su correo?">
+          <input type="text" placeholder="¿Tiene página web?">
+          <textarea rows="3" style="width:80%"></textarea>
+          <br/>
+          <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> Contactar</button>
+        </form>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+            $('#myModal').modal('hidden')
+    </script>
+    </body>
+    </html>
